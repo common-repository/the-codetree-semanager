@@ -1,0 +1,94 @@
+/*
+* Style Name: Bold Red
+* Style Author: Ryan Huff
+* Copyright: &copy;2010 MycodeTree.com All Rights Reserved 
+*/
+/* BOXES */
+#semBoundaryBox {
+    border: 1px solid #CC0000;
+    width: 500px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#semTitleBox {
+    background-color: #CC0000;
+    color: White;
+    font-family: Helvetica, Verdana, Tahoma, Arial;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+#semDetailsBox {
+    margin: 5px;
+    text-align: left;
+}
+#semExportBox {
+    text-align: center;
+    margin: 5px;
+}
+#semTzBox {
+    background-color: #C0C0C0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+#semSocialBox {
+    /*padding: 5px;*/
+    border-top: 1px solid #CC0000;
+    background-color: #CC0000;
+    text-align: left;
+    color: White;
+}
+#semFooterBox {
+    font-size: 9px;
+    font-style: italic;
+    background-color: #CC0000;
+    text-align: center;
+    color: White;
+}
+#semInfoBox {
+    padding: 3px;
+    margin: 3px;
+    background-color: #ddd;
+    border: 1px dashed maroon;
+}
+/* LABELS */ 
+#labels {
+    font-weight: bold;
+}
+#exportOptionLabel {
+    text-align: center;
+    font-weight: bold;
+    background-color: #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;  
+}
+/* LINKS */
+#semIcalLink {
+    
+}
+#semNewZoneLink {
+    
+}
+/* MISC */
+#row {
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+#googleBtn {
+    margin-top: 10px;
+}
+#googleBtnLnk {
+    
+}
+#semClientSelector {
+    font-size:90%;
+    background-color:#ddd;
+}

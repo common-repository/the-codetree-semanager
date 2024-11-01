@@ -1,0 +1,68 @@
+#popup {
+/*height: 100%;
+width: 100%;
+background: #000000;
+position: absolute;
+top: 0;
+-moz-opacity:0.75;
+-khtml-opacity: 0.75;
+opacity: 0.75;
+filter:alpha(opacity=75);*/
+}
+
+#window {
+width: 500px;
+height: 425px;
+margin: 0 auto;
+border: 3px solid #A0A0A0;
+background: #ffffff;
+position: fixed;
+top: 20%;
+left: 30%;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+#semTitle {
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #D0D0D0;
+    color: Black;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#input {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+label.lblstyle {
+    font-weight: bold;
+    font-size: 10px;
+    font-family: Tahoma;
+}
+#txtFields {
+    text-align: right;
+    vertical-align: top;
+}
+#dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+#dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+ul#icons {margin: 0; padding: 0;}
+ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+ul#icons span.ui-icon {float: left; margin: 0 4px;}
+
+#question {
+    margin: 0px;
+    font-style: Italic;
+}
+#answer {
+    margin: 0px;
+    margin-left: 10px;
+    font-weight: bold;
+}
